@@ -1,0 +1,33 @@
+{
+  "name": "hubot-pagetitle",
+  "version": "0.0.1",
+  "description": "returns page title of urls",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slightair/hubot-pagetitle.git"
+  },
+  "keywords": [
+    "hubot",
+    "web",
+    "title"
+  ],
+  "author": {
+    "name": "slightair",
+    "email": "arksutite@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slightair/hubot-pagetitle/issues"
+  },
+  "homepage": "https://github.com/slightair/hubot-pagetitle",
+  "dependencies": {
+    "request": "^2.34.0",
+    "cheerio": "^0.13.1",
+    "node-icu-charset-detector": "0.0.7",
+    "iconv": "^2.0.7"
+  }
+}
